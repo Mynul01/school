@@ -1,0 +1,125 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.menu{
+    word-spacing: 20px;
+}
+.menu-1{
+    font-weight: bolder;
+}
+
+.btn{
+    border: none;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+ background-color: darkorange;
+}
+.btn-2{
+    border: none;
+    background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;  
+    cursor: pointer;
+}
+.hero-kids{
+    height: 500px;
+}
+.card-1{
+    background: linear-gradient(to bottom, rgb(214, 241, 252) 0%, white 50%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-1:hover{
+    transform: translateY(-10px);
+     transition: 0.2s;
+ }
+.card-2{
+    background: linear-gradient(to bottom, rgb(241, 211, 183) 0%, white 50%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.card-2:hover{
+    transform: translateY(-10px);
+     transition: 0.2s;
+ }
+.card-3{
+    background-image: linear-gradient(to bottom, rgb(215, 209, 243) 0%, white 50%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.card-3:hover{
+   transform: translateY(-10px);
+    transition: 0.1s;
+}
+.flex-1{
+    display: flex;
+    gap: 30px;
+}
+.previous{
+    background-color: orange;
+    color: white;
+}
+.next{
+    background-color: orange;
+    color: white;
+}
+.round{
+    border-radius: 5px;
+    padding: 10px;
+}
+.next-previous{
+text-align: center;
+text-decoration: none;
+align-items: center;
+margin-top: 20px;
+}
+.marquee-section{
+    background-color: blue;
+    color: white;
+    z-index: 2;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.story-1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 500px;
+    position: absolute;
+}
+.date{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: skyblue;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
