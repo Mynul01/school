@@ -1,3 +1,6 @@
+body{
+justify-content: flex-end;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -109,17 +112,135 @@ margin-top: 20px;
 .story-1{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 500px;
-    position: absolute;
+    height: 600px;
+    display: flex;
+    width: 869px;
+    height: auto;
+
 }
 .date{
     display: inline-block;
-    position: relative;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 160px;
+}
+.date-1{
+    display: inline-block;
+    position: absolute;
     color: white;
     font-weight: bold;
     background-color: skyblue;
     padding: 5px 20px;
     border-radius: 20px;
-    margin-top: 200px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 160px;
+}
+
+
+.story-section-1{
+background-color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 20px;
+display: block;
+cursor: pointer;
+}
+.story-section-1:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.story-text{
+    margin-left: 10x;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.story-2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    display: flex;
+    width: 425px;
+}
+.story-section-2{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px;
+    display: block;
+    cursor: pointer;
+    height: auto;
+    }
+    .story-section-2:hover{
+        transform: translateY(-10px);
+        transition: 0.3s;
+    }
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+     padding: 50px;
+     gap: 50px;
+    }
+.flex-4{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.btn-3{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    color: blue;
+    padding-left: 20px;
+    padding-right: 20px;  
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.btn-3:hover{
+    background-color: black;
+    color: white;
+}
+.flex-5{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.btn-div-3{
+padding-bottom: 50px;
+padding-top: 20px;
+text-align: center;
+}
+.footer{
+    background-color: skyblue;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.footer-1{
+    text-align: center;
+}
+.footer-2{
+text-align: center;
+width: 500px;
+}
+.nev-btn-1{
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.nev-btn-1:hover{
+    background-color: blue;
+}
+.nev{
+    text-align: center;
 }
